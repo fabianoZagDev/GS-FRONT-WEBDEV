@@ -1,13 +1,13 @@
 .slider{
     margin: 0px auto;
-    width: 1400px;
-    height: 787px;
+    width: 1200px;
+    height: 675px;
     overflow: hidden;
     box-shadow:  5px 4px 4px rgb(109, 108, 108);
 }
 .slides{
     width: 400%;
-    height: 787px;
+    height: 675px;
     display: flex;
 }
 .slides input{
@@ -19,11 +19,11 @@
     transition: 2s
 }
 .Slide img{
-    width: 1400px;
+    width: 1200px;
 }
 .navigation{
     position: absolute;
-    width: 1400px;
+    width: 1200px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -50,6 +50,51 @@
 #radio3:checked ~ .primeiro{
     margin-left: -50%;
 }
-.titulo img{
-    width: 20%;
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+.titulo p{
+    color: #10172b;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: solid 5px #89a6f7;
+    padding: 8px;
+    border-radius: 8px;
+    letter-spacing: 7px;
+}
+.problema{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxButtons div{
+    border: 2px solid #89a6f7;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.boxButtons{
+    position: absolute;
+    width: 1200px;
+    margin-top: 636px;
+    display: flex;
+    justify-content: center;
+}
+.boxButtons div:not(:last-child){
+    margin-right: 50px;
+}
+#radio1:checked ~ .boxButtons .buttonFake1{
+    background-color: #89a6f7;
+}
+#radio2:checked ~ .boxButtons .buttonFake2{
+    background-color: #89a6f7;
+}
+#radio3:checked ~ .boxButtons .buttonFake3{
+    background-color: #89a6f7;
 }
