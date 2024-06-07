@@ -1,0 +1,41 @@
+.tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tecnologia .containerProblema {
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnologia .imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease-in-out;
+}
+
+.tecnologia .imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.tecnologia .infos {
+    margin: 490px;
+    width: 800px;
+
+}
+.tecnologia .infos h4{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.tecnologia .imagem:hover {
+    opacity: 0;
+}

@@ -5,3 +5,21 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+}

@@ -3,7 +3,7 @@
     width: 1200px;
     height: 675px;
     overflow: hidden;
-    box-shadow:  5px 4px 4px rgb(109, 108, 108);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6)
 }
 .slides{
     width: 400%;
@@ -20,8 +20,7 @@
 }
 .Slide img{
     width: 1200px;
-}
-.navigation{
+}.navigation{
     position: absolute;
     width: 1200px;
     margin-top: -40px;
@@ -41,13 +40,13 @@
 .manualbtn:hover{
     background-color: #89a6f7;
 }
-#radio1:checked ~ .primeiro{
+.slider .slides #radio1:checked ~ .primeiro{
     margin-left: 0;
 }
-#radio2:checked ~ .primeiro{
+.slider .slides #radio2:checked ~ .primeiro{
     margin-left: -25%;
 }
-#radio3:checked ~ .primeiro{
+.slider .slides #radio3:checked ~ .primeiro{
     margin-left: -50%;
 }
 .titulo{
@@ -65,7 +64,7 @@
     border-radius: 8px;
     letter-spacing: 7px;
 }
-.problema{
+section{
     margin: 30px;
     display: flex;
     flex-direction: column;

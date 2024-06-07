@@ -7,24 +7,35 @@ header{
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    width: 14%;
 }
 nav img{
-    width: 8%;
+    width: 60%;
 }
-nav{
-    padding: 10px 80px 10px 50px;
+.header{
+    padding: 10px 140px 10px 140px;
     background-color: #050A30;
     display: flex;
+    top: 0;
+    z-index: 1000;
     flex-direction: row;
     color: white;
     align-items: center;
     justify-content: space-between;
+    height:120px;
+    position:fixed
 }
-nav ul{
+.listaHeader{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;  
+    gap: 15px; 
 }
 nav ul img{
     width: 30px;
@@ -43,6 +54,8 @@ li{
     height: 800px;
     max-height: 800px;
     align-items: center;
+    margin: 30px;
+    justify-content: center;
 }
 .boxInfosO20{
     display: flex;
@@ -51,7 +64,7 @@ li{
     height: 500px;
     justify-content: center;
     align-items:center;
-    box-shadow: 5px 4px 2px rgb(109, 108, 108);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6)
 }
 .boxInfosO20 img{
     width: 220px;
@@ -61,4 +74,10 @@ li{
     width: 480px;
     font-size: 20px;
     text-align: center;
+}
+#user-icon{
+    cursor: pointer;
+}
+#logout-icon{
+    cursor: pointer;
 }

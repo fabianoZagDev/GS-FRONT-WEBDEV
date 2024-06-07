@@ -1,0 +1,31 @@
+.containerBeneficios{
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+}
+.containerBeneficios div{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerBeneficios .informacoes{
+    flex-direction: column;
+    width: 800px;
+    
+}
+.containerBeneficios .informacoes p{
+    width: 700px;
+    font-size: 17px;
+}
+.containerBeneficios .informacoes h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.containerBeneficios p{
+    width: 500px;
+    font-size: 90px;
+    text-align: center;
+}

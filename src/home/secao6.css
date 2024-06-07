@@ -1,0 +1,35 @@
+.ajuda .slider{
+    box-shadow: none;
+}
+
+#radio-1.ajuda ~ .um{
+    margin-left: 0;
+}
+#radio-2:checked ~ .um{
+    margin-left: -25%;
+}
+#radio-3:checked ~ .um{
+    margin-left: -50%;
+}
+#radio-4:checked ~ .um{
+    margin-left: -75%;
+}
+#radio-5:checked ~ .um{
+    margin-left: -100%;
+}
+
+#radio-1:checked ~ .boxButtons .buttonFake-1{
+    background-color: #89a6f7;
+}
+#radio-2:checked ~ .boxButtons .buttonFake-2{
+    background-color: #89a6f7;
+}
+#radio-3:checked ~ .boxButtons .buttonFake-3{
+    background-color: #89a6f7;
+}
+#radio-4:checked ~ .boxButtons .buttonFake-4{
+    background-color: #89a6f7;
+}
+#radio-5:checked ~ .boxButtons .buttonFake-5{
+    background-color: #89a6f7;
+}
