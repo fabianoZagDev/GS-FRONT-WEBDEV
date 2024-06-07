@@ -16,10 +16,10 @@ a{
 .hidden{
     opacity: 0;
     filter: blur(15px);
-    transition: all 1s;
+    transition: all 2s;
 }
 .show{
     opacity: 1;
     filter: blur(0px);
-    transition: all 1s;
+    transition: all 2s;
 }
