@@ -16,6 +16,7 @@
     border: 4px solid black;
     border-radius: 10px;
     justify-content:space-evenly;
+    transition: 1s ease-in-out;
 }
 .listaObjetivos div img{
     width: 100px;

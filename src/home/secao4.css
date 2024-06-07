@@ -35,6 +35,7 @@
     font-size: 12px;
     padding-top: 10px;
     font-weight: 600;
+    transition: 1s ease-in-out;
 }
 
 .alvo:hover{

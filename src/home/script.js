@@ -6,6 +6,9 @@ const loginBtn = document.getElementById('login-btn');
 const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
 const logoutIcon = document.getElementById('logout-icon');
+const elements = document.querySelectorAll('.hidden');
+let count1 = 1
+let count2 = 1
 
 //Função que chama o pop-up ao ser clicado e depois de confirmado fecha o mesmo
 userIcon.addEventListener('click', () => {
@@ -51,8 +54,6 @@ logoutIcon.addEventListener('click', () => {
 })
 
 //Função para animação no scroll
-const elements = document.querySelectorAll('.hidden');
-
 const myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -67,4 +68,30 @@ elements.forEach((element) => {
     myObserver.observe(element);
 });
 
+//Carrosel para os slides
 
+document.getElementById("radio1").checked=true;
+
+
+function nextimage(){
+    count1++;
+    if(count1>3){
+        count1 = 1
+    }
+    document.getElementById("radio"+count1).checked=true;
+}
+
+
+document.getElementById("radio-1").checked=true;
+
+function nextimage2(){
+    count2++;
+    if(count2>5){
+        count2 = 1
+    }
+    document.getElementById("radio-"+count2).checked=true;
+}
+setInterval(function(){
+    nextimage();
+     nextimage2();
+}, 10000)
