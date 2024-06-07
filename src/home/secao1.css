@@ -1,13 +1,13 @@
 .slider{
     margin: 0px auto;
-    width: 1200px;
-    height: 675px;
+    width: 1000px;
+    height: 562.5px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.6)
 }
 .slides{
     width: 400%;
-    height: 675px;
+    height: 562.5px;
     display: flex;
 }
 .slides input{
@@ -19,10 +19,10 @@
     transition: 2s
 }
 .Slide img{
-    width: 1200px;
+    width: 1000px;
 }.navigation{
     position: absolute;
-    width: 1200px;
+    width: 1000px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -80,8 +80,8 @@ section{
 }
 .boxButtons{
     position: absolute;
-    width: 1200px;
-    margin-top: 636px;
+    width: 1000px;
+    margin-top: 523px;
     display: flex;
     justify-content: center;
 }

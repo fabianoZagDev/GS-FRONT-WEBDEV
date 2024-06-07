@@ -16,8 +16,8 @@ nav a{
     width: 14%;
 }
 nav img{
-    width: 60%;
-}
+    width: 100px
+}   
 .header{
     padding: 10px 140px 10px 140px;
     background-color: #050A30;
@@ -28,8 +28,9 @@ nav img{
     color: white;
     align-items: center;
     justify-content: space-between;
-    height:120px;
-    position:fixed
+    height:100px;
+    position:fixed;
+    width: 100%;    
 }
 .listaHeader{
     display: flex;
@@ -51,18 +52,19 @@ li{
 .container-areaInicial{
     display: flex;
     justify-content: space-evenly;
-    height: 800px;
-    max-height: 800px;
     align-items: center;
-    margin: 30px;
+    margin: 150px 30px 0 30px;
     justify-content: center;
+}
+.container-areaInicial img{
+    width: 50%;
 }
 .boxInfosO20{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 500px;
-    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10PX;
     align-items:center;
     box-shadow: 0 0 10px rgba(0,0,0,0.6)
 }

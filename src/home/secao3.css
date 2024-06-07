@@ -1,14 +1,14 @@
 .listaObjetivos{
     display: flex;
     flex-direction: row;
-    width: 1500px;
+    width: 90%;
     height: 600px;
     align-items: center;
     gap: 80px;
 }
 .listaObjetivos .objetivo{
-    width: 440px;
-    height: 350px;
+    width: 33%;
+    height: 50%;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -21,9 +21,19 @@
     width: 100px;
 }
 .listaObjetivos h4{
-    font-size: 22px;
-    padding-bottom: 10px;
+    font-size: 150%;
+    padding-bottom: 5%;
 }
 .textoObjetivo{
     padding: 0 20px;
+}
+.listaObjetivos .objetivo:hover{
+    transition: 1s ease-in-out;
+    font-size: 112%;
+    width: 40%;
+    height: 60%;
+    background-color: #050A30;
+    border-color: #050A30 ;
+    color: white;
+
 }

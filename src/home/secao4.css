@@ -2,31 +2,45 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1200px;
+    width: 60%;
     height: 600px;
 }
 #imagemAlvo{
-    width: 400px
+    width: 50%
 }
 .containerLista{
-    width: 800px;
-    height: 600px;
+    width: 60%;
+    height: 40%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space- evenly;
+}
+.alvo img{
+    width: 60%
 }
 .alvo{
+    width: 80%;
+    height: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 0;
+    margin: 70px 50px;
     padding: 10px;
     border: 3px solid black;
     border-radius: 10px;
 }
 .alvo p{
-    font-size: 16px;
+    text-align: center;
+    font-size: 12px;
     padding-top: 10px;
     font-weight: 600;
+}
+
+.alvo:hover{
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+    height: 6%;
+    transition: 1s ease-in-out;
+    font-size: 450%;
 }

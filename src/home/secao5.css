@@ -1,12 +1,12 @@
 .containerBeneficios{
-    width: 1200px;
+    width: 80%;
     height: 500px;
     align-items: center;
 }
 .containerBeneficios div{
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
     
 }
 .containerBeneficios .informacoes p{
-    width: 700px;
+    width: 75%;
     font-size: 17px;
 }
 .containerBeneficios .informacoes h4{
@@ -25,7 +25,7 @@
     margin-bottom: 10px;
 }
 .containerBeneficios p{
-    width: 500px;
+    width: 25%;
     font-size: 90px;
     text-align: center;
 }

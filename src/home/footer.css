@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: space-between;
     height:220px;
-    margin-top: 100px
+    margin-top: 100px;
+    width: 100%;
 }
 footer{
     text-decoration: none;
@@ -17,6 +18,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .listaFooter{
     display: flex;
