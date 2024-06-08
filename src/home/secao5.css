@@ -22,7 +22,9 @@
 }
 .containerBeneficios .informacoes h4{
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
 }
 .containerBeneficios p{
     width: 25%;
