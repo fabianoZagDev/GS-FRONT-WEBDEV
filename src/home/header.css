@@ -19,6 +19,13 @@ nav a {
 nav img {
     width: 100px;
 }
+#login-mobile {
+    color:white;
+}
+
+#logout-mobile{
+    color:white;
+}
 
 .header {
     padding: 10px 140px;
