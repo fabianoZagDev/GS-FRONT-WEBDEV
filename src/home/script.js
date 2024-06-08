@@ -1,17 +1,19 @@
 //Variáveis
 const userIcon = document.getElementById('user-icon');
+const loginMobile = document.getElementById('login-mobile');
 const overlay = document.getElementById('overlay');
 const loginPopup = document.getElementById('login-popup');
 const loginBtn = document.getElementById('login-btn');
 const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
 const logoutIcon = document.getElementById('logout-icon');
+const logoutMobile = document.getElementById('logout-mobile');
 const elements = document.querySelectorAll('.hidden');
 let count1 = 1
 let count2 = 1
 
 //Função que chama o pop-up ao ser clicado e depois de confirmado fecha o mesmo
-userIcon.addEventListener('click', () => {
+userIcon.addEventListener && loginMobile.addEventListener('click', () => {
     overlay.style.display = 'block';
     loginPopup.style.display = 'block';
 });
@@ -47,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 //Função para resetar o login
-logoutIcon.addEventListener('click', () => {
+logoutIcon.addEventListener && logoutMobile.addEventListener('click', () => {
     usernameInput.value = '';
     passwordInput.value = '';
     alert('Login resetado!')
@@ -95,3 +97,12 @@ setInterval(function(){
     nextimage();
      nextimage2();
 }, 10000)
+
+function menuShow(){
+    let menuMobile = document.querySelector('.menuMobile');
+    if(menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open');
+    }else{
+        menuMobile.classList.add('open');
+    }
+}
