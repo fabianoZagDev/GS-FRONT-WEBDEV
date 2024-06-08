@@ -71,7 +71,6 @@
         flex-wrap: nowrap;
         justify-content: center;
     }
-    }
     .alvo img{
         width: 62px;
     }
@@ -100,3 +99,4 @@
         transition: 1s ease-in-out;
         font-size: 450%;
     }
+}
