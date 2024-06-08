@@ -127,4 +127,17 @@ li{
         display: block;
         position: fixed;
     }
+    .container-areaInicial img{
+        display: none;
+    }
+    .boxInfosO20 img{
+        display: block;
+    }
+    .boxInfosO20{
+        width: 300px;
+    }
+    .boxInfosO20 p{
+        width: 250px;
+        font-size: 12px;
+    }
 }

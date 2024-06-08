@@ -114,5 +114,6 @@ section{
     }
     .boxButtons{
         width: 350px;
+        display: none;
     }
 }
