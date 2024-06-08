@@ -1,9 +1,8 @@
-body{
+body {
     font-family: "League Spartan", sans-serif;
-    
 }
-header{
-    
+
+header {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -12,14 +11,17 @@ header{
     justify-content: center;
     align-items: center;
 }
-nav a{
+
+nav a {
     width: 14%;
 }
-nav img{
-    width: 100px
-}   
-.header{
-    padding: 10px 140px 10px 140px;
+
+nav img {
+    width: 100px;
+}
+
+.header {
+    padding: 10px 140px;
     background-color: #050A30;
     display: flex;
     top: 0;
@@ -28,58 +30,126 @@ nav img{
     color: white;
     align-items: center;
     justify-content: space-between;
-    height:100px;
-    position:fixed;
-    width: 100%;    
+    height: 100px;
+    position: fixed;
+    width: 100%;
 }
-.listaHeader{
+
+.listaHeader {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px; 
+    gap: 15px;
 }
-nav ul img{
+
+nav ul img {
     width: 30px;
 }
-li{
+
+li {
     display: inline;
-    vertical-align: middle
+    vertical-align: middle;
 }
+
 .linha {
     border-left: 1px solid #fff;
     height: 30px;
 }
-.container-areaInicial{
+
+.container-areaInicial {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 150px 30px 0 30px;
     justify-content: center;
 }
-.container-areaInicial img{
+
+.container-areaInicial img {
     width: 50%;
 }
-.boxInfosO20{
+
+.boxInfosO20 {
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
-    padding: 10PX;
-    align-items:center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6)
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
-.boxInfosO20 img{
+
+.boxInfosO20 img {
     width: 220px;
-    padding: 50PX;
+    padding: 50px;
 }
+
 .boxInfosO20 p {
     width: 480px;
     font-size: 20px;
     text-align: center;
 }
-#user-icon{
+
+#user-icon {
     cursor: pointer;
 }
-#logout-icon{
+
+#logout-icon {
     cursor: pointer;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.menuButton img {
+    display: none;
+}
+
+.menuMobile {
+    display: none;
+}
+
+.menuButton {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .listaHeader {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+    }
+
+    .menuButton img {
+        display: block;
+        width: 50px;
+    }
+
+    .menuButton button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menuMobile {
+        display: none;
+        position: absolute;
+        top: 100px; /* Ajusta essa altura conforme necessário */
+        left: 0;
+        width: 100%;
+        background-color: #050A30;
+        z-index: 999; /* Certifique-se de que ele esteja abaixo do nav */
+    }
+
+    .menuMobile .listaHeader {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menuMobile.open {
+        display: block;
+    }
+}
+>>>>>>> Stashed changes
