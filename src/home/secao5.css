@@ -31,3 +31,8 @@
     font-size: 90px;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .containerBeneficios div{
+        height: auto;
+    }
+}
