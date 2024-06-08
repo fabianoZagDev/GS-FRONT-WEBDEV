@@ -3,7 +3,6 @@
     flex-direction: row;
     align-items: center;
     width: 60%;
-    height: 600px;
 }
 #imagemAlvo{
     width: 50%
@@ -45,3 +44,59 @@
     transition: 1s ease-in-out;
     font-size: 450%;
 }
+
+
+@media (max-width: 768px) {
+    .publico .titulo {
+        margin-bottom: 15px;
+    }
+
+    .containerAlvos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        align-content: center;
+    }
+
+    #imagemAlvo {
+        width: 128px;
+    }
+    
+    .containerLista {
+        /* width: 60%; */
+        /* height: 40%; */
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    }
+    .alvo img{
+        width: 62px;
+    }
+    .alvo {
+        width: 128px;
+        height: 128px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .alvo p{
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+        font-weight: 600;
+        transition: 1s ease-in-out;
+    }
+    
+    .alvo:hover{
+        padding: 20px 20px 20px 20px;
+        width: 148px;
+        height: 148px;
+        transition: 1s ease-in-out;
+        font-size: 450%;
+    }
