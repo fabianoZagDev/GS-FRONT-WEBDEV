@@ -193,4 +193,17 @@ li {
     .menuMobile.open {
         display: block;
     }
+    .container-areaInicial img{
+        display: none;
+    }
+    .boxInfosO20 img{
+        display: block;
+    }
+    .boxInfosO20 p{
+        width: 280px;
+        font-size: 12px;
+    }
+    .boxInfosO20{
+        width: 300px;
+    }
 }
