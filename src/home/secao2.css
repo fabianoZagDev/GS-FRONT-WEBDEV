@@ -29,7 +29,7 @@
 
 .tecnologia .infos {
     margin: 10% 20%;
-    width: 80%;   
+    width: 360px
 
 }
 .tecnologia .infos h4{
@@ -39,4 +39,26 @@
 
 .tecnologia .imagem:hover {
     opacity: 0;
+}
+
+
+@media (max-width: 768px) {
+    .tecnologia .imagem {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        transition: 1s ease-in-out;
+    }
+    
+    .tecnologia .imagem img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tecnologia{
+        margin: 0px !important;
+    }
 }
